@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-05-30T20:52:25.368493",
+    "startedAt": "2023-05-30T20:52:18.882431",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "homework-wandb/PreprocessData.ipynb",
+    "root": "E:/MLOPS/MLOPS",
+    "git": {
+        "remote": "git@github.com:rehamessameltagoury/MLOPS.git",
+        "commit": "f41e25123fdc41c86d0b3e1c701976073afce218"
+    },
+    "email": "rehameltagoury@gmail.com",
+    "host": "DESKTOP-UH4SQ5T",
+    "username": "user",
+    "executable": "C:\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1792.0,
+        "min": 0.0,
+        "max": 1992.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1792.0,
+            "min": 0.0,
+            "max": 1992.0
+        }
+    ],
+    "disk": {
+        "total": 738.2812461853027,
+        "used": 63.34271240234375
+    },
+    "memory": {
+        "total": 15.899612426757812
+    }
+}

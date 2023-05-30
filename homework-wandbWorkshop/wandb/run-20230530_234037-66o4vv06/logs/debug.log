@@ -1,0 +1,108 @@
+2023-05-30 23:40:37,350 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-05-30 23:40:37,351 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Configure stats pid to 13720
+2023-05-30 23:40:37,351 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from C:\Users\user\.config\wandb\settings
+2023-05-30 23:40:37,352 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from E:\MLOPS\MLOPS\homework-wandb\wandb\settings
+2023-05-30 23:40:37,352 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-30 23:40:37,352 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-30 23:40:37,416 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-30 23:40:37,416 INFO    MainThread:13720 [wandb_init.py:_log_setup():507] Logging user logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234037-66o4vv06\logs\debug.log
+2023-05-30 23:40:37,417 INFO    MainThread:13720 [wandb_init.py:_log_setup():508] Logging internal logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234037-66o4vv06\logs\debug-internal.log
+2023-05-30 23:40:37,417 INFO    MainThread:13720 [wandb_init.py:init():547] calling init triggers
+2023-05-30 23:40:37,417 INFO    MainThread:13720 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'max_depth': 10, 'random_state': 0}
+2023-05-30 23:40:37,418 INFO    MainThread:13720 [wandb_init.py:init():596] starting backend
+2023-05-30 23:40:37,418 INFO    MainThread:13720 [wandb_init.py:init():600] setting up manager
+2023-05-30 23:40:37,424 INFO    MainThread:13720 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-30 23:40:37,429 INFO    MainThread:13720 [wandb_init.py:init():606] backend started and connected
+2023-05-30 23:40:37,434 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-30 23:40:37,435 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-30 23:40:37,435 INFO    MainThread:13720 [wandb_init.py:init():700] updated telemetry
+2023-05-30 23:40:37,486 INFO    MainThread:13720 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-30 23:41:38,007 ERROR   MainThread:13720 [wandb_init.py:init():763] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:41:38,108 ERROR   MainThread:13720 [wandb_init.py:init():1168] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 769, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:44:01,837 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-05-30 23:44:01,838 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Configure stats pid to 13720
+2023-05-30 23:44:01,838 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from C:\Users\user\.config\wandb\settings
+2023-05-30 23:44:01,839 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from E:\MLOPS\MLOPS\homework-wandb\wandb\settings
+2023-05-30 23:44:01,839 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-30 23:44:01,839 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-30 23:44:02,003 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-30 23:44:02,007 INFO    MainThread:13720 [wandb_init.py:_log_setup():507] Logging user logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234401-d9uig2ux\logs\debug.log
+2023-05-30 23:44:02,009 INFO    MainThread:13720 [wandb_init.py:_log_setup():508] Logging internal logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234401-d9uig2ux\logs\debug-internal.log
+2023-05-30 23:44:02,010 INFO    MainThread:13720 [wandb_init.py:init():547] calling init triggers
+2023-05-30 23:44:02,012 INFO    MainThread:13720 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-05-30 23:44:02,013 INFO    MainThread:13720 [wandb_init.py:init():596] starting backend
+2023-05-30 23:44:02,014 INFO    MainThread:13720 [wandb_init.py:init():600] setting up manager
+2023-05-30 23:44:02,026 INFO    MainThread:13720 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-30 23:44:02,035 INFO    MainThread:13720 [wandb_init.py:init():606] backend started and connected
+2023-05-30 23:44:02,040 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-30 23:44:02,041 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-30 23:44:02,041 INFO    MainThread:13720 [wandb_init.py:init():700] updated telemetry
+2023-05-30 23:44:02,090 INFO    MainThread:13720 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-30 23:45:02,700 ERROR   MainThread:13720 [wandb_init.py:init():763] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:45:02,791 ERROR   MainThread:13720 [wandb_init.py:init():1168] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 769, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:46:09,195 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2023-05-30 23:46:09,196 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Configure stats pid to 13720
+2023-05-30 23:46:09,196 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from C:\Users\user\.config\wandb\settings
+2023-05-30 23:46:09,196 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from E:\MLOPS\MLOPS\homework-wandb\wandb\settings
+2023-05-30 23:46:09,197 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-05-30 23:46:09,197 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-30 23:46:09,216 INFO    MainThread:13720 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-05-30 23:46:09,216 INFO    MainThread:13720 [wandb_init.py:_log_setup():507] Logging user logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234609-rwdoxni8\logs\debug.log
+2023-05-30 23:46:09,217 INFO    MainThread:13720 [wandb_init.py:_log_setup():508] Logging internal logs to E:\MLOPS\MLOPS\homework-wandb\wandb\run-20230530_234609-rwdoxni8\logs\debug-internal.log
+2023-05-30 23:46:09,217 INFO    MainThread:13720 [wandb_init.py:init():547] calling init triggers
+2023-05-30 23:46:09,217 INFO    MainThread:13720 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-05-30 23:46:09,217 INFO    MainThread:13720 [wandb_init.py:init():596] starting backend
+2023-05-30 23:46:09,218 INFO    MainThread:13720 [wandb_init.py:init():600] setting up manager
+2023-05-30 23:46:09,223 INFO    MainThread:13720 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-30 23:46:09,229 INFO    MainThread:13720 [wandb_init.py:init():606] backend started and connected
+2023-05-30 23:46:09,233 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2023-05-30 23:46:09,233 INFO    MainThread:13720 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-05-30 23:46:09,234 INFO    MainThread:13720 [wandb_init.py:init():700] updated telemetry
+2023-05-30 23:46:09,334 INFO    MainThread:13720 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-05-30 23:47:09,900 ERROR   MainThread:13720 [wandb_init.py:init():763] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:47:10,004 ERROR   MainThread:13720 [wandb_init.py:init():1168] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\wandb\sdk\wandb_init.py", line 769, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-05-30 23:47:31,501 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,502 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,502 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,502 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,503 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,503 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,503 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,504 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,504 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,504 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,504 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
+2023-05-30 23:47:31,537 WARNING MsgRouterThr:13720 [router.py:message_loop():77] message_loop has been closed
