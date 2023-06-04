@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/MLOPS/MLOPS/ExperimentTracking%20HW/mlruns/0/d459688a58224cbe99da39cea9236a80/artifacts
+end_time: 1685823288028
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d459688a58224cbe99da39cea9236a80
+run_name: indecisive-foal-652
+run_uuid: d459688a58224cbe99da39cea9236a80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685823287881
+status: 4
+tags: []
+user_id: user

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/MLOPS/MLOPS/ExperimentTracking%20HW/mlruns/0/5c5a82c6740943c2accd12cb3607223c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c5a82c6740943c2accd12cb3607223c
+run_name: placid-wren-430
+run_uuid: 5c5a82c6740943c2accd12cb3607223c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685823362486
+status: 1
+tags: []
+user_id: user

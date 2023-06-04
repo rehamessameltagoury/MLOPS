@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/MLOPS/MLOPS/ExperimentTracking%20HW/mlruns/0/4b0638f43f5846d7996316660a2d574a/artifacts
+end_time: 1685823087645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b0638f43f5846d7996316660a2d574a
+run_name: awesome-shark-569
+run_uuid: 4b0638f43f5846d7996316660a2d574a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685823087434
+status: 4
+tags: []
+user_id: user

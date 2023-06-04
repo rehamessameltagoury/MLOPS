@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/MLOPS/MLOPS/ExperimentTracking%20HW/mlruns/0/460772cd30bf44ad9899f6520c70aa2e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 460772cd30bf44ad9899f6520c70aa2e
+run_name: tasteful-whale-898
+run_uuid: 460772cd30bf44ad9899f6520c70aa2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685823134010
+status: 1
+tags: []
+user_id: user
