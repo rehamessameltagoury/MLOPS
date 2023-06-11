@@ -1,0 +1,10 @@
+deployments:
+- name: nyc_taxi_data
+  entrypoint: orchestrate.py:main_flow
+  work_pool:
+    name: MlopsZommcamp
+- name: nyc_taxi_data_artifact
+  entrypoint: orchestrate_artifacts.py:main_flow_artifact
+  work_pool:
+    name: mlopszoomcamp
+    
